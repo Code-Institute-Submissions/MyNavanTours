@@ -8,12 +8,16 @@
     text-decoration: none;
 }
 
-body {
-    background-image: url(../images/bridge.jpeg);
+h1 {
+    background-color: #00FF00;
+}
+
+#hero-image {
+    background: url(../images/bridge.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 #menu li {
