@@ -1,32 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Titillium+Web:wght@300;400&family=Ubuntu:wght@300&family=Uchen&display=swap');
 
 * { 
-    font-family: 'Uchen', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Uchen', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
     margin: 0;
     padding: 0;
     border: none;
     text-decoration: none;
 }
 
-h1 {
-    background-color: #085d96;
+body {
+    background-color: rgb(8, 93, 150);
 }
 
-#hero-image {
-    background: url(../images/bridge.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
+#big {
+    font-size: 120%;
+}
+
+h1 {
+    background-color: rgb(8, 93, 150);
+    font-size: 80px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#bridge {
+    background: url(../images/bridge.jpeg) no-repeat center center;
     width: 100%;
-    height: 100vh;
+    height: 600px;
+}
+#bridge-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 #menu li {
     list-style-type: none;
-    margin-right: 30px;
     display: inline;
 }
 
-li:hover {
+#li1:hover {
     border-radius: 15px;
     background-color: white;
 }
@@ -34,7 +53,8 @@ li:hover {
 .link {
     border: none;
     background: none;
-    padding: 10px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 20px;
     cursor: pointer;
     margin: 10px;
@@ -48,11 +68,37 @@ li:hover {
     background-color: yellow;
 }
 
-h1 {
-    font-size: 80px;
-    font-weight: 300;
+#section {
+    background-color: rgb(8, 93, 150, .7);
+}
+
+#cover-text {
     color: white;
-    text-align: center;
+    font-size: 130%;
+    font-family: 'Uchen', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    background-color: rgb(8, 93, 150, .7); 
+    width: 300px;
+    height: 200px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 10%;
+    left: 10%;
+    position: absolute;
+    padding-bottom: 30px;
+}    
+
+#other-text {
+    font-size: 120%;
+    font-family: 'Uchen', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 30px;
+    background-color: rgba(236, 241, 241, 0.7);
+    bottom: 10%;
+    right: 10%;
+    position: absolute;
 }
 
 #intro {
@@ -63,16 +109,16 @@ h1 {
     margin-left: 100px;
     margin-right: 100px;
     text-align: center;
+    
 }
 
 #left {
-    padding-left: 10%;
-    text-align: left;
-    font-size: 20px;
+    list-style: none;
+}
+
+footer {
+    background-color: yellow;
 }
 
 
 
-
-    
-    
