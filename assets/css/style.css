@@ -70,6 +70,7 @@ h2 {
 
 #section {
     background-color: rgb(8, 93, 150, .7);
+    padding-bottom: 15px;
 }
 
 #cover-text {
@@ -104,12 +105,14 @@ h2 {
 #intro {
     background: rgba(236, 241, 241, 0.7);
     border-radius: 5px;
-    padding: 25px;
-    margin-top: 50px;
+    margin-top: 15px;
     margin-left: 100px;
     margin-right: 100px;
     text-align: center;
-    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #left {
